@@ -1,7 +1,5 @@
 FROM mcr.microsoft.com/devcontainers/anaconda
 
-RUN conda config --set channel_priority strict && conda config --add channels conda-forge
-
 RUN conda install -n base -c conda-forge mamba -y
 
 RUN umask 0002 && \
