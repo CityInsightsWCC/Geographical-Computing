@@ -19,9 +19,9 @@
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
-			"settings": {
-				"python.defaultInterpreterPath": "/opt/conda/envs/g420"
-			},
+			//"settings": {
+			//	"python.defaultInterpreterPath": "/opt/conda/envs/g420"
+			//},
 			"extensions": [
 				"ms-python.python",
 				"ms-toolsai.jupyter",
